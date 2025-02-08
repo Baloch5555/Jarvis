@@ -1,18 +1,18 @@
 {
-    "name": "Jarvis",
+    "name": "MR SAJÓØ",
     "version":"2.5.0",
-    "description": "Jarvis Multi Device whatsapp bot",
-    "logo": "https://i.imgur.com/PmfMtfa.jpeg",
+    "description": "Multi Device whatsapp bot",
+    "logo": "https://files.catbox.moe/hfdqou.jpg",
     "keywords": ["whatsapp"],
-    "repository": "https://github.com/Loki-Xer/Jarvis",
-    "website": "https://github.com/Loki-Xer/Jarvis",
+    "repository": "https://github.com/Baloch5555/Jarvis",
+    "website": "https://github.com/Baloch5555/Jarvis",
     "success_url": "/",
     "stack": "container",
     "env": {
         "BOT_INFO": {
             "description": "botname;ownername;image url",
             "required": true,
-            "value":"ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4"
+            "value":"Mr SAJÓØ https://files.catbox.moe/hfdqou.jpg"
         },
         "MENU_FONT": {
             "description": "type;plugin name, have to be less than 35",
@@ -22,7 +22,7 @@
         "AUDIO_DATA": {
             "description": "audio package name",
             "required": true,
-            "value":"ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/VgxJeCm.jpeg"
+            "value":"Mr SAJÓØ;https://files.catbox.moe/hfdqou.jpg"
         },
         "WARN_COUNT": {
             "description": "warn count",
@@ -32,12 +32,12 @@
         "MEDIA_DATA": {
             "description": "media data that uses in list",
             "required": true,
-            "value":"ʟɪꜱᴛ ᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg"
+            "value":"Mr SAJÓØ;https://files.catbox.moe/hfdqou.jpg"
         },
         "HANDLER": {
-            "description": "handler for bot. all so can be null or false",
+            "description": "handler for bot. all so can be (.) or false",
             "required": true,
-            "value":"null"
+            "value":"."
         },
         "SESSION_ID": {
             "description": "session id",
@@ -53,18 +53,18 @@
             "required": true
         },
         "HEROKU_API_KEY": {
-            "description": "Heroku account api key, https://dashboard.heroku.com/account",
+            "description": "HRKU-8d70f723-1e08-4248-b434-48fad31ba5e9",
             "required": true
         },
         "STICKER_PACKNAME": {
             "description": "sticker package name",
             "required": true,
-            "value":"ʟᴏᴋɪ;ᴊᴀʀᴠɪꜱ"
+            "value":"Mr_SAJÓØ"
         },
         "SUDO": {
             "description": "owner number of the bot",
             "required": false,
-            "value":"4915252819677"
+            "value":"+923267815071"
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
@@ -109,7 +109,7 @@
         "STATUS_REPLY_MSG": {
             "description": "Status reply message to send",
             "required": false,
-            "value":"*Nice Status Brother 🦫✨*"
+            "value":"*YOUR STATUS SEEN BY MY OWNER 😉 MR SAJÓØ 🥰✨*"
         },
         "CMD_REACTION": {
             "description": "react to commands",
